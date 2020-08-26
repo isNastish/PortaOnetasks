@@ -1,11 +1,9 @@
-# PortaOnetasks
-Скрипт на Python для работы с файлом.
+# PortaOnetask
+0.It's quite simple script that finds some data in a very huge file of numbers.
 
-1)Скрипт для нахождения минимального числа в файле целых чисел,максимального
-  медианы,среднего арифметического.
+1.It finds min value, max, average value, and something else,i forgot what, in file. 
   
-2)А так - же находит самую большую последовательность возрастающих подряд чисел,
-  и самую большую убывающих подряд чисел.
-  
-3)Исходный файл должен находиться в той - же директории что и python file,
-  если это не так,то в первой строке скрипта нужно прописать путь к файлу с которым вы хотите работать.
+2.It finds the biggest increasing sequence, the biggest decreasing sequence in file.
+ 
+# Important 
+If original_file.txt not in the same directory, write path to file in first line of the code.
